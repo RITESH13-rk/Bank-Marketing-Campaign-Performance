@@ -124,12 +124,6 @@ DIVIDE (
 
 ---
 
-### 🧠 What I Learned
-- How to build data models in Power BI
-- Creating and optimizing DAX measures for KPIs
-- Designing dashboards with user-friendly visuals
-
----
 
 ## 📁 Project Structure
 
@@ -159,12 +153,13 @@ Bank-Marketing-Campaign-Performance/
 
 ---
 
-## 📌 Conclusion
-
-This dashboard provides a comprehensive overview of marketing campaign performance and helps identify key factors influencing customer subscriptions.
-It demonstrates the practical use of **Power BI, DAX, and business analytics** in real-world marketing scenarios.
+### 🧠 What I Learned
+- How to build data models in Power BI
+- Creating and optimizing DAX measures for KPIs
+- Designing dashboards with user-friendly visuals
 
 ---
 
 ## 👤 Author
 **Ritesh Koushal**
+Aspiring Data Analyst | Power BI | Data Visualization
