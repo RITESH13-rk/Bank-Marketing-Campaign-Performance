@@ -90,19 +90,28 @@ The dataset represents direct marketing campaigns (phone calls) of a banking ins
 
 ## 🧮 DAX Measures Used
 
-Total Customers Contacted = COUNTROWS('bank_data')
+-- Total number of customers contacted
+Total Customers Contacted =
+COUNTROWS ( 'bank_data' )
 
+-- Total customers who subscribed to a term deposit
 Total Subscribed =
-CALCULATE(
-    COUNTROWS('bank_data'),
+CALCULATE (
+    COUNTROWS ( 'bank_data' ),
     'bank_data'[subscribed] = "Yes"
 )
 
+-- Average number of contacts per customer
 Average Contacts =
-AVERAGE('bank_data'[campaign])
+AVERAGE ( 'bank_data'[campaign] )
 
+-- Subscription conversion rate
 Subscription Rate (%) =
-DIVIDE([Total Subscribed], [Total Customers Contacted], 0)
+DIVIDE (
+    [Total Subscribed],
+    [Total Customers Contacted],
+    0
+)
 
 ---
 
@@ -124,7 +133,7 @@ DIVIDE([Total Subscribed], [Total Customers Contacted], 0)
 
 ## 📁 Project Structure
 
-Bank-Marketing-Campaign-PowerBI/
+Bank-Marketing-Campaign-Performance/
 │
 ├── Data/
 │   └── bank_marketing.csv
@@ -137,6 +146,7 @@ Bank-Marketing-Campaign-PowerBI/
 │
 ├── README.md
 └── LICENSE
+
 
 ---
 
