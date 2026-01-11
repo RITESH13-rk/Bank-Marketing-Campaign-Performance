@@ -1,4 +1,12 @@
 # 📊 Bank Marketing Campaign Analysis | Power BI Dashboard
+An interactive Power BI dashboard to analyze bank marketing campaign effectiveness and customer subscription behavior.
+
+---
+
+## 📊 Dashboard Preview
+<img width="1156" height="652" alt="Screenshot 2026-01-11 133019" src="https://github.com/user-attachments/assets/88f589c5-6503-47df-932e-bdbf25db9d94" />
+
+---
 
 ## 📌 Project Overview
 
@@ -27,6 +35,8 @@ The dataset represents direct marketing campaigns (phone calls) of a banking ins
 - **File Format:** CSV
 - **Records:** 41,000+ customer interactions
 - **Data Type:** Structured
+- **Target Variable:** `subscribed` (Yes/No indicating whether term deposit was subscribed)
+
 
 ---
 
@@ -60,10 +70,13 @@ The dataset represents direct marketing campaigns (phone calls) of a banking ins
 
 ---
 
-## 📊 Dashboard Preview
-<img width="1156" height="652" alt="Screenshot 2026-01-11 133019" src="https://github.com/user-attachments/assets/88f589c5-6503-47df-932e-bdbf25db9d94" />
+### 🔥 Core Highlights
+- Identified the most effective contact method for customer subscriptions
+- Found which customer segments have higher response rates
+- Trend analysis over months to plan campaign timing
 
 ---
+
 
 ## 📊 Dashboard Visualizations
 
@@ -99,6 +112,13 @@ DIVIDE([Total Subscribed], [Total Customers Contacted], 0)
 - Certain job roles such as **Management** and **Technician** show better conversions
 - Subscription trends vary significantly across months
 - Higher number of contacts does not always guarantee subscription
+
+---
+
+### 🧠 What I Learned
+- How to build data models in Power BI
+- Creating and optimizing DAX measures for KPIs
+- Designing dashboards with user-friendly visuals
 
 ---
 
