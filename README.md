@@ -90,28 +90,21 @@ The dataset represents direct marketing campaigns (phone calls) of a banking ins
 
 ## 🧮 DAX Measures Used
 
--- Total number of customers contacted
-Total Customers Contacted =
-COUNTROWS ( 'bank_data' )
+- **Total number of customers contacted**
 
--- Total customers who subscribed to a term deposit
-Total Subscribed =
-CALCULATE (
-    COUNTROWS ( 'bank_data' ),
-    'bank_data'[subscribed] = "Yes"
-)
+      Total Customers Contacted = COUNTROWS ('bank_data')
 
--- Average number of contacts per customer
-Average Contacts =
-AVERAGE ( 'bank_data'[campaign] )
+- **Total customers who subscribed to a term deposit**
 
--- Subscription conversion rate
-Subscription Rate (%) =
-DIVIDE (
-    [Total Subscribed],
-    [Total Customers Contacted],
-    0
-)
+      Total Subscribed = CALCULATE (COUNTROWS ('bank_data' ),'bank_data'[subscribed] = "Yes")
+
+- **Average number of contacts per customer**
+
+      Average Contacts = AVERAGE ('bank_data'[campaign])
+
+- **Subscription conversion rate**
+
+      Subscription Rate (%) = DIVIDE ([Total Subscribed],[Total Customers Contacted], 0)
 
 ---
 
@@ -124,22 +117,21 @@ DIVIDE (
 
 ---
 
-
 ## 📁 Project Structure
 
-Bank-Marketing-Campaign-Performance/
-│
-├── Data/
-│   └── bank_marketing.csv
-│
-├── Dashboard/
-│   └── Bank_Marketing_Campaign_Dashboard.pbix
-│
-├── Screenshots/
-│   └── Dashboard_Preview.png
-│
-├── README.md
-└── LICENSE
+       Bank-Marketing-Campaign-Performance/
+       │
+       ├── Data/
+       │   └── bank_marketing.csv
+       │
+       ├── Dashboard/
+       │   └── Bank_Marketing_Campaign_Dashboard.pbix
+       │
+       ├── Screenshots/
+       │   └── Dashboard_Preview.png
+       │
+       ├── README.md
+       └── LICENSE
 
 ---
 
