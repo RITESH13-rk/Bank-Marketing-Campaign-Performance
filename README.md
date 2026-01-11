@@ -61,7 +61,6 @@ The dataset represents direct marketing campaigns (phone calls) of a banking ins
 ---
 
 ## 📊 Dashboard Preview
-
 <img width="1156" height="652" alt="Screenshot 2026-01-11 133019" src="https://github.com/user-attachments/assets/88f589c5-6503-47df-932e-bdbf25db9d94" />
 
 ---
