@@ -117,10 +117,10 @@ DIVIDE (
 
 ## 🔍 Key Insights
 
-- Customers contacted via **cellular** have a higher subscription rate
-- Certain job roles such as **Management** and **Technician** show better conversions
-- Subscription trends vary significantly across months
-- Higher number of contacts does not always guarantee subscription
+- Customers contacted via **cellular** channels show significantly higher subscription rates compared to other contact methods.
+- **Management** and **Technician** roles demonstrate better conversion performance, indicating stronger targeting opportunities.
+- Subscription trends vary noticeably across months, highlighting potential **seasonal effects** in campaign performance.
+- Increasing the number of contacts does not consistently improve conversion, suggesting the importance of **contact quality over frequency**.
 
 ---
 
@@ -140,7 +140,6 @@ Bank-Marketing-Campaign-Performance/
 │
 ├── README.md
 └── LICENSE
-
 
 ---
 
